@@ -27,7 +27,7 @@ export default function App() {
             <a href="#metodo" className="hover:text-accent-orange transition-colors">O Método</a>
             <a href="#beneficios" className="hover:text-accent-orange transition-colors">Benefícios</a>
             <a href="#sobre" className="hover:text-accent-orange transition-colors">Sobre</a>
-            <a href="#oferta" className="bg-sage-dark text-white px-5 py-2 rounded-full text-xs hover:bg-opacity-90 transition-all">
+            <a href="https://pay.kirvano.com/c2dde35d-19d6-4f38-b32e-2fc72d998be4" target="_blank" rel="noopener noreferrer" className="bg-sage-dark text-white px-5 py-2 rounded-full text-xs hover:bg-opacity-90 transition-all">
               Comprar Agora
             </a>
           </div>
@@ -49,7 +49,9 @@ export default function App() {
             <a href="#metodo" onClick={() => setIsMenuOpen(false)}>O Método</a>
             <a href="#beneficios" onClick={() => setIsMenuOpen(false)}>Benefícios</a>
             <a href="#sobre" onClick={() => setIsMenuOpen(false)}>Sobre</a>
-            <button className="btn-primary w-full mt-4">Comprar Agora</button>
+            <a href="https://pay.kirvano.com/c2dde35d-19d6-4f38-b32e-2fc72d998be4" target="_blank" rel="noopener noreferrer" className="btn-primary w-full mt-4 text-center">
+              Comprar Agora
+            </a>
           </div>
         </motion.div>
       )}
@@ -223,9 +225,9 @@ export default function App() {
               <p className="text-xs uppercase tracking-widest text-accent-orange font-bold mt-2">Oferta por tempo limitado</p>
             </div>
             
-            <button className="btn-primary w-full md:w-auto text-lg px-12">
+            <a href="https://pay.kirvano.com/c2dde35d-19d6-4f38-b32e-2fc72d998be4" target="_blank" rel="noopener noreferrer" className="btn-primary w-full md:w-auto text-lg px-12 inline-block">
               Quero o Cardápio Inteligente
-            </button>
+            </a>
             
             <p className="mt-8 text-xs text-sage-dark/50 flex items-center justify-center gap-2">
               <CheckCircle2 className="w-3 h-3" /> Garantia de 7 dias ou seu dinheiro de volta
